@@ -1,0 +1,25 @@
+{
+  "name": "morath",
+  "version": "1.0.0",
+  "description": "Fundamental mathematical operations: addition, subtraction, multiplication and division",
+  "main": "dist/morath.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "mocha"
+  },
+  "keywords": [
+    "math",
+    "addition",
+    "substraction",
+    "multiplication",
+    "division"
+  ],
+  "author": "Juan Camilo <jcmora@smdigital.com.co> (https://twitter.com/jcmlmorav)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
